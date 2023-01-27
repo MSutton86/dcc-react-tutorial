@@ -18,6 +18,7 @@ const EntriesChartTracker = (props) => {
         data={[["Date", "Weight"], ['2022-01-01', 174], ['2022-02-02', 178], ['2022-03-03', 187]]}
         width="100%"
         height="400px"
+        options={{legend: {position: 'bottom'}}}
         legendToggle
         />
      );
